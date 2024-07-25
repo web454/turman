@@ -1,0 +1,122 @@
+.main-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: auto;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+.title-1{
+    font-size: 46px;
+    font-family: 'Acme';
+
+}
+.title-2{
+    font-size: 24px;
+    font-family: 'Advent Pro';
+    font-weight: bold;
+
+}
+.title-3{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Advent Pro';
+    font-weight: bold;
+}
+
+.title-4{
+    font-family: 'Abel';
+    font-size: 22px;
+
+}
+ul li{
+    font-family: 'Abel';
+    font-size: 22px;
+}
+.is-link{
+font-family: 'Alumni Sans';
+font-size: 20px;
+}
+
+.services-container {
+    display: flex;
+     padding-top: 0%;
+    font-size: 18px; /* Ajusta el tamaño de la letra */
+    color: #1a1a1a; /* Ajusta el color de la letra */
+    
+
+}
+
+.full-width {
+    background-color: #d6d6d6;
+    padding: 20px;
+    font-family: 'Abel';
+
+}
+
+.full-width .box {
+    background-color:transparent;
+    color: #000;
+    border: none;
+    box-shadow: none;
+
+}
+.services-container a {
+    color: #1a1a1a; /* Ajusta el color de los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+.services-container a:hover {
+    color: #0864c5; /* Color azul al pasar el mouse */
+
+}
+.services-container p {
+    margin: 0 10px; /* Espaciado entre los elementos */
+    text-align: center;
+}
+.services-container p a {
+    font-family: 'Abel';
+    font-weight: bold;
+}
+@media (max-width: 1024px) {
+    .services-container a {
+        color: #1a1a1a; /* Ajusta el color de los enlaces */
+        text-decoration: none;
+        transition: color 0.3s ease; /* Transición suave para el color */
+    }
+    .services-container a:hover {
+        color: #0864c5; /* Color azul al pasar el mouse */
+    
+    }
+    .services-container p {
+        margin: 0 10px; /* Espaciado entre los elementos */
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .has-text-centered{
+        font-size: 19px;
+    }
+    
+    .columns.is-multiline {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column.is-one-third {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}

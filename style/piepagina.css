@@ -1,0 +1,315 @@
+/* CSS existente */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-family: 'Akshar';
+    font-size: 22px;
+}
+.nav-item {
+    margin-bottom: -20px;
+  }
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between the text and images */
+    font-family: 'Akshar';
+    margin-top: -10px;
+}
+
+.social-media span {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+}
+
+.columns .column {
+    padding: 1rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .icon {
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px; /* Adjust this value to align text */
+}
+
+.footer .map img {
+    max-width: 100%;
+}
+
+.welcome-text {
+    font-size: 1.1rem; /* Adjust this value to make the text larger */
+    margin-bottom: 1rem;
+    font-family: 'Akshar';
+}
+
+.footer-bottom {
+    background-color: #23272b;
+    color: #ccc;
+    padding: 10px;
+    font-size: 0.875rem;
+}
+.bordered-column {
+    position: relative;
+}
+
+.bordered-column::before,
+.bordered-column::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px; /* Adjust the width of the lines */
+    background-color: #ffffff; /* Adjust the color of the lines */
+    height: 100px;
+    margin-top: 45px;
+    margin-inline-end:70px;
+    margin-inline-start: 60px;
+}
+
+.bordered-column::before {
+    left: 0;
+}
+
+.bordered-column::after {
+    right: 0;
+}
+span{
+    font-family: 'Akshar';
+    font-size: 20px;
+}
+.red-social a:hover{
+    color: #ffffff;
+    background-color:#000000 ;
+    box-sizing: border-box;
+}
+.fa-facebook-f{
+    margin-top: 7px;
+}
+.fa-youtube{
+    margin-top: 7px;
+}
+.fa-instagram{
+    margin-top: 7px;
+}
+.fa-whatsapp{
+    margin-top: 7px;
+}
+.red-social{
+    display: grid;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.red-social a {
+    margin: 0 5px;
+    color: #000000; 
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.nav-container {
+    padding: 40px;
+    color: #fff;
+  }
+
+  .nav-title {
+    font-family: 'Akshar';
+    font-size: 24px;
+    margin-bottom: 1px;
+
+  }
+
+  .nav-line {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  .has-text-white{
+    font-family: 'Arimo';
+    font-size: 16px;
+  }
+
+  .contact-container {
+    padding: 40px;
+    color: #fff;
+    margin-left: -100px;
+  }
+  .contact-title {
+    font-weight: bold;
+    padding: 40px;
+    margin-bottom: 1px;
+  }
+  .contact-line {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  .contact-item {
+    align-items: center;
+  }
+  .contact-icon {
+    color: #007bff;
+  }
+  .contact-text {
+    color: #fff;
+  }
+  #contac-container{
+    padding: 40px;
+  }
+  #ubicac-container{
+    padding: 40px;
+  }
+
+/* Media Queries para centrar el texto en pantallas pequeñas */
+@media (max-width: 768px) {
+    
+    .footer .column {
+        max-width: 100%;
+        text-align: center;
+    }
+    .bordered-column::before,
+    .bordered-column::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 0; /* Adjust the width of the lines */
+        background-color: #ffffff; /* Adjust the color of the lines */
+        height: 0;
+        margin-top: 0;
+        margin-inline-end:0;
+        margin-inline-start: 0;
+    }  
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media span {
+        margin-bottom: 10px;
+    }
+
+    .red-social {
+        justify-content: center;
+    }
+    .nav-title {
+        font-family: 'Akshar';
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+      }
+      .nav-item{
+        font-family: 'Arimo';
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+         }
+
+         .nav-line {
+            border-top: 1px solid rgba(255, 255, 255, 0.5);
+            width: 0;
+            margin-bottom: 0;
+          }
+          .contact-line {
+            border-top: 1px solid rgba(255, 255, 255, 0.5);;
+            margin-bottom: 0;
+            width: 0;
+          }
+}
+@media (max-width: 1024px) {
+    
+    .footer .column {
+        max-width: 100%;
+        text-align: center;
+    }
+    .bordered-column::before,
+    .bordered-column::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 0; /* Adjust the width of the lines */
+        background-color: #ffffff; /* Adjust the color of the lines */
+        height: 0;
+        margin-top: 0;
+        margin-inline-end:0;
+        margin-inline-start: 0;
+    }  
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media span {
+        margin-bottom: 10px;
+    }
+
+    .red-social {
+        justify-content: center;
+    }
+    .nav-title {
+        font-family: 'Akshar';
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+      }
+      .nav-item{
+        font-family: 'Arimo';
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+         }
+
+         .nav-line {
+            border-top: 1px solid rgba(255, 255, 255, 0.5);
+            width: 0;
+            margin-bottom: 0;
+          }
+          .contact-line {
+            border-top: 1px solid rgba(255, 255, 255, 0.5);;
+            margin-bottom: 0;
+            width: 0;
+          }
+}
+

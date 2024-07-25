@@ -1,0 +1,122 @@
+.navbar {
+    background-color: #1E3857 !important;
+    min-height: 120px;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.navbar-brand .navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .navbar-item img {
+    max-height: 60px;
+    margin-right: 10px;
+}
+
+.navbar-text {
+    color: #ffffff;
+    font-size: 15px; 
+    text-align: center;
+    font-family: 'Abel';
+}
+
+.navbar-item {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+    font-size: 17px;
+    font-family: 'Roboto';
+}
+
+.navbar-item:hover {
+    background-color: #1E3857 !important;
+    color: #D7C20A !important;
+}
+
+.navbar-burger {
+    margin-top: 30px; 
+    transform: scale(1.6);
+}
+.navbar-burger span {
+    background-color: #fff !important; 
+}
+
+.navbar-burger:hover span {
+    background-color: #a7a7a7 !important;
+    height: 1px; 
+    width: 15px !important; 
+    margin-bottom: 1px; 
+}
+
+/* logo */
+.navbar-logo {
+    max-height: 120px !important; 
+}
+a{
+    font-family: 'fuente_3';
+}
+span{
+    font-family: 'Abel';
+    
+}
+.unico{
+    text-align: right;
+}
+
+.contact-icon {
+    vertical-align: middle;
+}
+.linea-vertical1 {
+    height: 30px;
+    width: 2px;
+    background-color: white;
+    margin-top: 50px;
+}   
+.linea-vertical {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 65px;
+    margin-inline-end:12px;
+}
+/* Opcional: Ajustes responsivos */
+@media (max-width: 1024px) {
+/* logo */
+.navbar-logo {
+    max-height: 80px !important; 
+    margin-top: 13px;
+}
+.linea-vertical {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 65px;
+    margin-inline-end:10px;
+    margin-top: 13px;
+}
+.navbar-menu{
+    background-color: #1E3857 !important;
+}
+.navbar-text {
+    color: #ffffff;
+    font-size: 14px; 
+    text-align: center;
+    font-family: 'Abel';
+    margin-top: 13px;
+}
+}
+
+@media (max-width: 768px) {
+  /* logo */
+.navbar-logo {
+    margin-top: 9px; 
+    max-height: 80px !important; 
+}
+.navbar-text {
+    color: #ffffff;
+    margin-top: 18px;
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.navbar-menu{
+    background-color: #1E3857 !important;
+}
+}

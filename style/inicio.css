@@ -1,0 +1,146 @@
+/* Existing styles */
+
+/* Ajustar la imagen de la columna */
+.column img.is-rounded {
+    margin-left: 140px; /* Ajusta este valor según sea necesario */
+}
+
+/* Ajustar las imágenes dentro de .service-box */
+.service-box img {
+    margin-left: 80px; /* Ajusta este valor según sea necesario */
+}
+
+.main-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: auto;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+/* texto dentro de la imagen */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #dddcdc;
+    font-size: 64px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.custom-font-size {
+    font-size: 1.5rem; /* Puedes ajustar el tamaño según tus necesidades */
+    text-align: justify; /* Justifica el texto */
+}
+
+.custom-section {
+    background-color: #1E3857; /* Cambia el color de fondo */
+}
+
+.custom-title {
+    color: white;
+    font-size: 1.8rem; /* Ajusta el tamaño de la letra */
+}
+
+/* servicios */
+.service-box {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Opcional: Ajustes responsivos */
+@media (max-width: 1024px) {
+    .custom-title {
+        font-size: 1.5rem; /* Ajusta el tamaño de la letra para pantallas medianas */
+    }
+
+    .custom-font-size {
+        font-size: 24px; /* Puedes ajustar el tamaño según tus necesidades */
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: #dddcdc;
+        font-size: 44px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .is-rounded {
+        margin-left: 36px;
+    }
+
+    .service-box img {
+        max-width: 100%; /* Ensure the image scales properly */
+        height: auto; /* Maintain aspect ratio */
+        width: 150px; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-title {
+        font-size: 1.25rem; /* Ajusta el tamaño de la letra para pantallas pequeñas */
+    }
+
+    .custom-font-size {
+        font-size: 18px; /* Puedes ajustar el tamaño según tus necesidades */
+    }
+
+    .is-rounded {
+        width: 40%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: #dddcdc;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .service-box img {
+        max-width: 100%; /* Ensure the image scales properly */
+        height: auto; /* Maintain aspect ratio */
+        width: 200px !important; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the image */
+    }
+
+    .columns.is-multiline {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column.is-one-third {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}

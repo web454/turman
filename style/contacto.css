@@ -1,0 +1,47 @@
+.contact-map iframe {
+    width: 100%; /* Make iframe take full width */
+    height: 500px; /* Set a fixed height */
+    border: 0;
+}
+
+.contact-section {
+    background: url('../imagenes/contacto/contacto\ fondo.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 0;
+  }
+  .contact-section .container {
+    background: rgba(0, 0, 0, 0.2); /* Add a dark overlay for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .contact-section h1, .contact-section p, .contact-section label {
+    color: #fff;
+  }
+  .imagen{
+    vertical-align: middle;
+  }
+  .letra{
+    font-family: 'Advent Pro';
+    font-size: 25px;
+  }
+  .title{
+    font-family: 'Acme';
+    font-size: 60px;
+  }
+  .contact-details{
+    font-family: 'Advent Pro';
+    font-size: 20px;
+  }
+
+
+
+  #responseMessage {
+    display: none; 
+    background-color: #28a745; 
+    color: white; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px; 
+    font-weight: bold;
+}

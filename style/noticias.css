@@ -1,0 +1,30 @@
+.news-card {
+    margin-bottom: 2rem;
+  }
+  .news-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .main-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: auto;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+a:hover{
+  color:#D7C20A;
+}
+.letra{
+  font-family: 'Advent Pro';
+}

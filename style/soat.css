@@ -1,0 +1,18 @@
+.img-up {
+    margin-top: -30px; /* Ajusta este valor para mover la imagen hacia arriba */
+}
+.img-large {
+    width: 100%; /* O ajusta el valor según sea necesario */
+    max-width: 800px; /* Ajusta el valor máximo si es necesario */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    
+
+}
+.custom-title {
+    font-size: 3rem; /* Ajusta el tamaño del texto */
+    color: #fcb32c; /* Cambia el color del texto */
+}
+.custom-subtitle {
+    font-size: 1.5rem; /* Ajusta el tamaño del subtítulo */
+    color: #fcb32c; /* Cambia el color del subtítulo */
+}
